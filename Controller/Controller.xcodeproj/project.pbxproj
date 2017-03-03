@@ -15,6 +15,16 @@
 		3CA425C71E695AD800C745F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA425C51E695AD800C745F0 /* LaunchScreen.storyboard */; };
 		3CA425D21E695AD900C745F0 /* ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425D11E695AD900C745F0 /* ControllerTests.m */; };
 		3CA425DD1E695AD900C745F0 /* ControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425DC1E695AD900C745F0 /* ControllerUITests.m */; };
+		3CA425F51E695B7D00C745F0 /* BottomLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425EC1E695B7D00C745F0 /* BottomLineView.m */; };
+		3CA425F61E695B7D00C745F0 /* OptionBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425EE1E695B7D00C745F0 /* OptionBarController.m */; };
+		3CA425F71E695B7D00C745F0 /* OptionsBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425F01E695B7D00C745F0 /* OptionsBarItem.m */; };
+		3CA425F81E695B7D00C745F0 /* OptionsBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425F21E695B7D00C745F0 /* OptionsBarView.m */; };
+		3CA425F91E695B7D00C745F0 /* sline_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA425F31E695B7D00C745F0 /* sline_@2x.png */; };
+		3CA425FA1E695B7D00C745F0 /* sline_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA425F41E695B7D00C745F0 /* sline_@3x.png */; };
+		3CA426031E695BA600C745F0 /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425FC1E695BA600C745F0 /* FourVC.m */; };
+		3CA426041E695BA600C745F0 /* OneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA425FE1E695BA600C745F0 /* OneVC.m */; };
+		3CA426051E695BA600C745F0 /* ThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA426001E695BA600C745F0 /* ThreeVC.m */; };
+		3CA426061E695BA600C745F0 /* TwoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA426021E695BA600C745F0 /* TwoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,24 @@
 		3CA425D81E695AD900C745F0 /* ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA425DC1E695AD900C745F0 /* ControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerUITests.m; sourceTree = "<group>"; };
 		3CA425DE1E695AD900C745F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA425EB1E695B7D00C745F0 /* BottomLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomLineView.h; sourceTree = "<group>"; };
+		3CA425EC1E695B7D00C745F0 /* BottomLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomLineView.m; sourceTree = "<group>"; };
+		3CA425ED1E695B7D00C745F0 /* OptionBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionBarController.h; sourceTree = "<group>"; };
+		3CA425EE1E695B7D00C745F0 /* OptionBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionBarController.m; sourceTree = "<group>"; };
+		3CA425EF1E695B7D00C745F0 /* OptionsBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsBarItem.h; sourceTree = "<group>"; };
+		3CA425F01E695B7D00C745F0 /* OptionsBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsBarItem.m; sourceTree = "<group>"; };
+		3CA425F11E695B7D00C745F0 /* OptionsBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsBarView.h; sourceTree = "<group>"; };
+		3CA425F21E695B7D00C745F0 /* OptionsBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsBarView.m; sourceTree = "<group>"; };
+		3CA425F31E695B7D00C745F0 /* sline_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sline_@2x.png"; sourceTree = "<group>"; };
+		3CA425F41E695B7D00C745F0 /* sline_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sline_@3x.png"; sourceTree = "<group>"; };
+		3CA425FB1E695BA600C745F0 /* FourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourVC.h; sourceTree = "<group>"; };
+		3CA425FC1E695BA600C745F0 /* FourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourVC.m; sourceTree = "<group>"; };
+		3CA425FD1E695BA600C745F0 /* OneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVC.h; sourceTree = "<group>"; };
+		3CA425FE1E695BA600C745F0 /* OneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVC.m; sourceTree = "<group>"; };
+		3CA425FF1E695BA600C745F0 /* ThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeVC.h; sourceTree = "<group>"; };
+		3CA426001E695BA600C745F0 /* ThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeVC.m; sourceTree = "<group>"; };
+		3CA426011E695BA600C745F0 /* TwoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoVC.h; sourceTree = "<group>"; };
+		3CA426021E695BA600C745F0 /* TwoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +133,15 @@
 				3CA425BB1E695AD800C745F0 /* AppDelegate.m */,
 				3CA425BD1E695AD800C745F0 /* ViewController.h */,
 				3CA425BE1E695AD800C745F0 /* ViewController.m */,
+				3CA425FB1E695BA600C745F0 /* FourVC.h */,
+				3CA425FC1E695BA600C745F0 /* FourVC.m */,
+				3CA425FD1E695BA600C745F0 /* OneVC.h */,
+				3CA425FE1E695BA600C745F0 /* OneVC.m */,
+				3CA425FF1E695BA600C745F0 /* ThreeVC.h */,
+				3CA426001E695BA600C745F0 /* ThreeVC.m */,
+				3CA426011E695BA600C745F0 /* TwoVC.h */,
+				3CA426021E695BA600C745F0 /* TwoVC.m */,
+				3CA425EA1E695B7D00C745F0 /* OptionsBar */,
 				3CA425C01E695AD800C745F0 /* Main.storyboard */,
 				3CA425C31E695AD800C745F0 /* Assets.xcassets */,
 				3CA425C51E695AD800C745F0 /* LaunchScreen.storyboard */,
@@ -138,6 +175,23 @@
 				3CA425DE1E695AD900C745F0 /* Info.plist */,
 			);
 			path = ControllerUITests;
+			sourceTree = "<group>";
+		};
+		3CA425EA1E695B7D00C745F0 /* OptionsBar */ = {
+			isa = PBXGroup;
+			children = (
+				3CA425EB1E695B7D00C745F0 /* BottomLineView.h */,
+				3CA425EC1E695B7D00C745F0 /* BottomLineView.m */,
+				3CA425ED1E695B7D00C745F0 /* OptionBarController.h */,
+				3CA425EE1E695B7D00C745F0 /* OptionBarController.m */,
+				3CA425EF1E695B7D00C745F0 /* OptionsBarItem.h */,
+				3CA425F01E695B7D00C745F0 /* OptionsBarItem.m */,
+				3CA425F11E695B7D00C745F0 /* OptionsBarView.h */,
+				3CA425F21E695B7D00C745F0 /* OptionsBarView.m */,
+				3CA425F31E695B7D00C745F0 /* sline_@2x.png */,
+				3CA425F41E695B7D00C745F0 /* sline_@3x.png */,
+			);
+			path = OptionsBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +303,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA425F91E695B7D00C745F0 /* sline_@2x.png in Resources */,
+				3CA425FA1E695B7D00C745F0 /* sline_@3x.png in Resources */,
 				3CA425C71E695AD800C745F0 /* LaunchScreen.storyboard in Resources */,
 				3CA425C41E695AD800C745F0 /* Assets.xcassets in Resources */,
 				3CA425C21E695AD800C745F0 /* Main.storyboard in Resources */,
@@ -276,9 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA426041E695BA600C745F0 /* OneVC.m in Sources */,
+				3CA426031E695BA600C745F0 /* FourVC.m in Sources */,
 				3CA425BF1E695AD800C745F0 /* ViewController.m in Sources */,
+				3CA425F71E695B7D00C745F0 /* OptionsBarItem.m in Sources */,
+				3CA425F61E695B7D00C745F0 /* OptionBarController.m in Sources */,
+				3CA426051E695BA600C745F0 /* ThreeVC.m in Sources */,
 				3CA425BC1E695AD800C745F0 /* AppDelegate.m in Sources */,
+				3CA425F81E695B7D00C745F0 /* OptionsBarView.m in Sources */,
 				3CA425B91E695AD800C745F0 /* main.m in Sources */,
+				3CA425F51E695B7D00C745F0 /* BottomLineView.m in Sources */,
+				3CA426061E695BA600C745F0 /* TwoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
